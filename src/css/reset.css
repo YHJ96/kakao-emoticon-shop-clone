@@ -3,8 +3,9 @@
    License: none (public domain)
 */
 
-/* 폰트 추가 NotoKR-Bold */
+/* 폰트 추가 NotoKR */
 @import url(//db.onlinewebfonts.com/c/5422b56925f3f1b026a4e13b1f985e41?family=NotoKR-Bold);
+@import url(//db.onlinewebfonts.com/c/3a8ef215f4437b176fe0901f44ffbab0?family=NotoKR-Regular);
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
