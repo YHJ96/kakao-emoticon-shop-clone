@@ -1,0 +1,50 @@
+.icon {
+  color: rgba(0, 0, 0, 0);
+  background: url("../images/icon.png") no-repeat;
+  background-size: 830px 230px;
+}
+
+.icon-menu {
+  width: 24px;
+  height: 24px;
+  background-position: -210px -30px;
+  cursor: pointer;
+}
+
+.icon-serach {
+  width: 24px;
+  height: 24px;
+  background-position: -260px -30px;
+  cursor: pointer;
+}
+
+.icon-avatar {
+  width: 30px;
+  height: 30px;
+  background: url("../images/avatar.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.icon-logo {
+  width: 190px;
+  height: 28px;
+  background-position: -210px 0;
+}
+
+.header-container {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.header-side {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80px;
+}
