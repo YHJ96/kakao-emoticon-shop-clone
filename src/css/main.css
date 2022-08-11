@@ -1,0 +1,12 @@
+.slider {
+  display: flex;
+  width: 100%;
+  height: 530px;
+  justify-content: center;
+  background-color:rgb(245, 243, 160);
+}
+
+.slide-img {
+  width: auto;
+  height: 100%;
+}
