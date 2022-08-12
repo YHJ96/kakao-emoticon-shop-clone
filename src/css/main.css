@@ -56,10 +56,11 @@ a {
 .new-products-item-container {
   display: flex;
   flex-flow: row wrap;
+  gap: 0.5rem 1%;
 }
 
 .new-product-item {
-  flex: 1 1 20%;
+  flex: 1 1 19%;
   border-radius: 0.7rem;
   display: flex;
   flex-direction: column;
@@ -68,7 +69,6 @@ a {
   box-shadow: 0 2px 10px 0 rgb(0 0 0 / 6%);
   cursor: pointer;
   font-family: "NotoKR-Regular";
-  gap: 1rem 1%;
 }
 
 .new-product-item img {
@@ -152,6 +152,7 @@ a {
 
 .style-products-container {
   width: 100%;
+  background-color: #fafafa;
 }
 
 .style-products-content {
@@ -163,6 +164,7 @@ a {
 .style-product-container {
   width: 100%;
   display: flex;
+  padding: 1rem 0;
 }
 
 .style-product-container > a {
