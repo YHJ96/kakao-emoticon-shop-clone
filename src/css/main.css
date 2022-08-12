@@ -5,7 +5,7 @@ a {
 .animals-color {
   color: #fcbc8b;
 }
-.funny-clolor {
+.funny-color {
   color: #93e0dd;
 }
 .md-color {
@@ -14,7 +14,7 @@ a {
 .animals-bg-color {
   background-color: #fcbc8b;
 }
-.funny-bg-clolor {
+.funny-bg-color {
   background-color: #93e0dd;
 }
 .md-bg-color {
@@ -34,57 +34,51 @@ a {
   height: 100%;
 }
 
-.new-products-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
 .product-title {
-  width: 50%;
-  max-width: 1024px;
-  padding: 3rem 0 1rem 0;
+  padding: 4rem 0 2rem 0;
 }
 
 .product-title a {
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #191919;
 }
 
-.new-product-container {
+.new-products-container {
+  width: 100%;
+}
+
+.new-products-content {
+  margin: 0 auto;
+  max-width: 1080px;
+  width: 90%;
+}
+
+.new-products-item-container {
   display: flex;
-  flex-wrap: wrap;
-  width: 50%;
-  max-width: 1024px;
-  justify-content: center;
+  flex-flow: row wrap;
+  gap: 0.5rem 1%;
 }
 
 .new-product-item {
+  flex: 1 1 19%;
+  border-radius: 0.7rem;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  width: 18%;
-  margin: 1%;
-  height: 200px;
-  background-color: #fff;
-  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
   box-shadow: 0 2px 10px 0 rgb(0 0 0 / 6%);
   cursor: pointer;
   font-family: "NotoKR-Regular";
 }
 
 .new-product-item img {
-  width: 112px;
-  height: 112px;
+  width: 50%;
 }
 
 .new-product-item span {
-  padding-top: 2rem;
-  width: 100%;
+  padding: 1rem;
   overflow: hidden;
+  width: 10rem;
   text-overflow: ellipsis;
   text-align: center;
   white-space: nowrap;
@@ -92,18 +86,18 @@ a {
 
 .best-products-container {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+}
+
+.new-products-content {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1080px;
 }
 
 .best-product-container {
   display: flex;
   flex-flow: column wrap;
   justify-content: flex-start;
-  max-width: 1024px;
-  width: 50%;
   height: 500px;
 }
 
@@ -130,14 +124,13 @@ a {
 }
 
 .best-produc-item img {
-  width: 76px;
-  height: 76px;
+  width: 50%;
 }
 
 .best-number {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-family: Arial, Helvetica, sans-serif;
-  line-height: 22px;
+  line-height: 1.375rem;
 }
 
 .rank {
@@ -146,12 +139,12 @@ a {
 
 .best-text > span:nth-child(1) {
   color: #191919;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: "NotoKR-Regular";
 }
 
 .best-text > span:nth-child(2) {
-  font-size: 13px;
+  font-size: 0.8rem;
   color: #999999;
   padding-top: 0.5rem;
   font-family: "NotoKR-Regular";
@@ -159,52 +152,50 @@ a {
 
 .style-products-container {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   background-color: #fafafa;
 }
 
+.style-products-content {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
 .style-product-container {
-  max-width: 1024px;
-  width: 50%;
+  width: 100%;
   display: flex;
+  padding: 1rem 0;
 }
 
-.style-product-container a {
-  flex: 1 0 16%;
-  display: flex;
-  flex-direction: column;
-  padding: 1rem;
+.style-product-container > a {
+  flex: 1.7;
 }
 
-.style-product-container a > span:nth-child(1) {
-  font-size: 20px;
+.style-product-container > a > div:nth-child(1) {
+  font-size: 1.25rem;
+  padding-bottom: 1rem;  
 }
 
-.style-product-container a > span:nth-child(2) {
-  padding-top: 12px;
-}
-
-.style-icon {
+.style-product-container > a > div:nth-child(2) {
+  font-size: 0.95rem;
   display: inline-block;
-  border-radius: 16px;
-  font-size: 13px;
+  color: #fdfdfd;
   height: 32px;
-  color: #ffffff;
   line-height: 32px;
-  padding: 0 12px;
+  padding: 0 0.8rem;
+  border-radius: 1rem;
 }
 
-.style-product-container div {
-  flex: 1 1 17%;
+.style-product-container > div {
+  flex: 10;
   display: flex;
-  justify-content: center;
-  padding: 1.5rem;
 }
 
-.style-product-container img {
-  width: 124px;
-  height: 124px;
+.style-product-container > div > div {
+  width: 20%;
+  text-align: center;
+}
+
+.style-product-container > div > div img {
+  width: 70%;
 }
